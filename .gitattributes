@@ -1,0 +1,7 @@
+# Normaliza as quebras de linha entre Windows, Linux e macOS.
+#
+# Sem esta configuração, duplas com sistemas diferentes podem ver
+# arquivos inteiros marcados como alterados só por causa do tipo
+# de quebra de linha — e conflitos que não correspondem a nenhuma
+# mudança real de conteúdo.
+* text=auto eol=lf

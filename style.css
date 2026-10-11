@@ -1,0 +1,105 @@
+/* ============================================================
+   Laboratório de Gerenciamento de Código-Fonte
+   Folha de estilos da landing page
+   ------------------------------------------------------------
+   Uma propriedade por linha, de propósito: assim o git diff
+   mostra exatamente o que mudou, e os conflitos ficam
+   restritos às linhas realmente alteradas.
+   ============================================================ */
+
+
+/* ---------- Página ----------
+   Parte 3: o Aluno B altera background-color e font-family */
+body {
+    margin: 0;
+    color: #334155;
+   background-color: #f0f4f8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* ---------- Cabeçalho ---------- */
+header {
+    padding: 2rem 1.5rem;
+    background-color: #1a2332;
+    color: #ffffff;
+}
+
+
+/* ---------- Título principal ----------
+   Parte 5: os dois alunos alteram esta regra ao mesmo tempo */
+h1 {
+    color: #ffffff;
+    font-size: 2rem;
+    text-align: start;
+}
+
+
+/* ---------- Conteúdo ---------- */
+main {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+section {
+    margin: 1.5rem 0;
+    padding: 1.25rem 1.5rem;
+    background-color: #f0f7fa;
+    border-left: 4px solid #028090;
+    border-radius: 6px;
+}
+
+h2 {
+    margin-top: 0;
+    color: #065a82;
+}
+
+.servicos {
+    padding-left: 1.25rem;
+    line-height: 1.8;
+}
+
+
+/* ---------- Rodapé ---------- */
+footer {
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #5a7184;
+}
+
+
+/* ============================================================
+   Elementos criados durante o roteiro
+   ------------------------------------------------------------
+   Os estilos abaixo já estão prontos para os elementos que
+   vocês vão adicionar ao index.html. Não é preciso alterá-los:
+   quando o elemento aparecer na página, o estilo se aplica.
+   ============================================================ */
+
+/* Parte 3 — menu de navegação */
+.menu {
+    display: flex;
+    gap: 1.5rem;
+    margin: 1rem 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu a {
+    color: #02c39a;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+/* Parte 4 — parágrafo de descrição */
+.descricao {
+    margin: 0.75rem 0 0;
+    color: #d0e1ea;
+    font-style: italic;
+}
